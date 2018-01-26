@@ -1,0 +1,18 @@
+/**
+ * custom
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+
+.is-black .site-bg__overlay {
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.35);
+}
+
+.is-dark .site-bg__overlay {
+  position: absolute;
+  background-color: rgba(30, 31, 37, 0.45);
+}

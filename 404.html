@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext" />
+		<style>
+        video {
+		position:fixed;
+		top:50%;
+		left:50%;
+		min-width:100%;
+		min-height:100%;
+		width:auto;
+		height:auto;
+		z-index:-100;
+		transform:translateX(-50%) translateY(-50%);
+		background-size:cover;
+		transition:1s opacity;
+		}
+
+		.outer {
+		display:table;
+		position:absolute;
+		height:99%;
+		width:99%;
+		}
+
+		.middle {
+		display:table-cell;
+		vertical-align:middle;
+		}
+
+		.inner {
+		width:100%;
+		font-family: 'Lato ',sans-serif;
+		-webkit-font-smoothing:subpixel-antialiased!important;
+		color:white;
+		font-size:1.2rem;
+		text-align:center;
+		margin:0px auto 0px auto;
+		}
+
+		div#h1d {
+		display:inline-block;
+		font-size:50px;
+		margin:0px auto 0px auto;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		}
+
+		div#h2d {
+		display:inline-block;
+		font-size:30px;
+		margin:0px auto 0px auto;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		}
+
+		a {
+		display:inline-block;
+		color:#fff;
+		text-decoration:none;
+		background:rgba(0,0,0,0.5);
+		padding:10px;
+		transition:.6s background;
+		border-radius:10px;
+		}
+
+		a:hover {
+		background:rgba(0,0,0,0.9);
+		}
+		</style>
+		<title>Error 404: Page Not Found</title>
+	</head>
+	<body>
+        <video autoplay loop>
+            <source src="assets/h3h3.mp4" type="video/mp4">
+        </video>
+		<div class="outer">
+			<div class="middle">
+				<div class="inner">
+					<div id="h1d">Error 404: Page Not Found</div>
+					<br><br>
+                    <div id="h2d"></a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
