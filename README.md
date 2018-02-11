@@ -2,6 +2,10 @@
 ## About
 I made (pasted) this website for fun. Who knows, maybe there might be something usefull on it eventually.
 
+## Todo
+ - Use [particle.js](https://github.com/VincentGarreau/particles.js) so my particles don't look like shit.
+ - Add actual stuff?
+
 ## Pages
  - [Home](https://digitaldisarray.github.io/)
  - [Bitconnect](https://digitaldisarray.github.io/bit.html)
