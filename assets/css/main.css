@@ -105,7 +105,7 @@
 			animation: none !important;
 		}
 
-	a {
+	.link {
 		-moz-transition: border-color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out;
@@ -114,9 +114,10 @@
 		color: inherit;
 		outline: 0;
 		text-decoration: none;
+		color: #22c8f7;
 	}
     
-		a:hover {
+		.link:hover {
 			border-color: transparent;
 		}
 
