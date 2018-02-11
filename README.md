@@ -1,3 +1,4 @@
+![Website banner](https://github.com/digitaldisarray/digitaldisarray.github.io/blob/master/assets/banner.png?raw=true)
 ## About
 I made (pasted) this website for fun. Who knows, maybe there might be something usefull on it eventually.
 
