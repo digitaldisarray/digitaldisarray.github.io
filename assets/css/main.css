@@ -1,6 +1,12 @@
 body {
 	color: rgb(255, 255, 255);
 	font-family: 'Comfortaa', cursive;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 
@@ -22,15 +28,6 @@ a {
 	color: #22c8f7;
 }
 
-#unselectable {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
 h1 {
 	font-weight: bold;
 	font-size: 64px;
@@ -38,12 +35,12 @@ h1 {
 
 #main {
 	height: 200px;
-    width: 500px;
+	width: 500px;
 	margin-top: -100px;
-    margin-left: -250px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
+	margin-left: -250px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
 	text-align: center;
 	vertical-align: middle;
 }
