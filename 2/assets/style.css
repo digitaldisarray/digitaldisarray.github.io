@@ -1,0 +1,48 @@
+a {
+     text-decoration: none;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     font-size:  0.6875em;
+     font-family: "Courier New", Courier, Monaco;
+     font-style: normal;
+     font-size: 10pt;
+     z-index: 10;
+     color: #FFF;
+}
+
+a:hover {
+     font-weight: bold;
+} 
+
+body {
+     text-align: center;
+     background-color: #000;
+     color: #FFF;
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+pre {
+     font-size:  0.6875em;
+     font-family: "Courier New", Courier, Monaco;
+     padding-top: 2.5%;
+     padding-left: 0.5%;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+video {
+	position:fixed;
+	top:50%;
+	left:50%;
+	min-width:100%;
+	min-height:100%;
+	width: auto;
+	height: auto;
+	z-index:-100;
+	transform:translateX(-50%) translateY(-50%);
+	background-size:cover;
+	transition:1s opacity;
+}
