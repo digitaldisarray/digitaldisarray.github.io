@@ -10,4 +10,4 @@ Song: SAFAKASH - Rainy Day
  - [Home](https://digitaldisarray.github.io/)
  - [Bitconnect](https://digitaldisarray.github.io/memes/bit.html)
  - [Chinese Anime Gone Wrong](https://digitaldisarray.github.io/memes/wrong.html)
- - [404 Page ;)](https://digitaldisarray.github.io/404.html)
+ - [404 Page ;)](https://digitaldisarray.github.io/1/404.html)
